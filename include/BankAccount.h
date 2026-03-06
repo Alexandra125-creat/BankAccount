@@ -14,8 +14,8 @@ class BankAccount{
     void deposit(double amount);
     bool withdraw(double amount);
     double getBalance() const;
-    std::string getAccountNumber() const;
-    std::string getOwnerName() const;
+    const std::string& getAccountNumber() const;
+    const std::string& getOwnerName() const;
     void printStatement() const;
 
 };

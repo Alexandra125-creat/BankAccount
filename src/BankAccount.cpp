@@ -21,11 +21,11 @@ double BankAccount::getBalance() const {
     return balance;
 }
 
-std::string BankAccount::getAccountNumber() const {
+const std::string& BankAccount::getAccountNumber() const {
     return accountNumber;
 }
 
-std::string BankAccount::getOwnerName() const {
+const std::string& BankAccount::getOwnerName() const {
     return ownerName;
 }
 
